@@ -105,3 +105,86 @@ ALTER TABLE visa
 ALTER TABLE visa
     ADD CONSTRAINT visa_visa_type_id_fk FOREIGN KEY ( visa_type_id )
         REFERENCES visa_type ( visa_type_id );
+
+--Populate country table
+INSERT INTO country(country_id,country_name)
+VALUES(1,'Турция');
+INSERT INTO country(country_id,country_name)
+VALUES(2,'Германия');
+INSERT INTO country(country_id,country_name)
+VALUES(3,'Финландия');
+INSERT INTO country(country_id,country_name)
+VALUES(4,'Молдова');
+INSERT INTO country(country_id,country_name)
+VALUES(5,'Сербия');
+INSERT INTO country(country_id,country_name)
+VALUES(6,'Канада');
+INSERT INTO country(country_id,country_name)
+VALUES(7,'Египет');
+
+--Populate passport_type table
+INSERT INTO passport_type(passport_type_id, passport_type_name)
+VALUES(1,'Внутренний');
+INSERT INTO passport_type(passport_type_id, passport_type_name)
+VALUES(2,'Заграничный');
+INSERT INTO passport_type(passport_type_id, passport_type_name)
+VALUES(3,'Дипломатический');
+
+--Populate visa type table
+INSERT INTO visa_type(visa_type_id, visa_type_name,immigration)
+VALUES(1,'Туристическая',0);
+INSERT INTO visa_type(visa_type_id, visa_type_name,immigration)
+VALUES(2,'Рабочая',0);
+INSERT INTO visa_type(visa_type_id, visa_type_name,immigration)
+VALUES(3,'Учебная',0);
+INSERT INTO visa_type(visa_type_id, visa_type_name,immigration)
+VALUES(4,'Дипломатическая',0);
+INSERT INTO visa_type(visa_type_id, visa_type_name,immigration)
+VALUES(5,'Транзитная',0);
+INSERT INTO visa_type(visa_type_id, visa_type_name,immigration)
+VALUES(6,'Семейная',0);
+
+DROP SEQUENCE client_seq;
+DROP SEQUENCE country_seq;
+DROP SEQUENCE location_seq;
+DROP SEQUENCE passport_type;
+DROP SEQUENCE visa_type;
+
+CREATE SEQUENCE client_seq
+	MINVALUE 1 
+	MAXVALUE 999999
+	INCREMENT BY 1
+	START WITH 1 
+	NOCACHE  NOORDER  NOCYCLE;
+
+CREATE SEQUENCE country_seq
+	MINVALUE 1 
+	MAXVALUE 999
+	INCREMENT BY 1
+	START WITH 1 
+	NOCACHE  NOORDER  NOCYCLE;
+
+CREATE SEQUENCE location_seq
+	MINVALUE 1 
+	MAXVALUE 999
+	INCREMENT BY 1
+	START WITH 1 
+	NOCACHE  NOORDER  NOCYCLE;
+
+CREATE SEQUENCE passport_type
+	MINVALUE 1 
+	MAXVALUE 99
+	INCREMENT BY 1
+	START WITH 1 
+	NOCACHE  NOORDER  NOCYCLE;
+
+CREATE SEQUENCE visa_type
+	MINVALUE 1 
+	MAXVALUE 99
+	INCREMENT BY 1
+	START WITH 1 
+	NOCACHE  NOORDER  NOCYCLE;
+
+
+
+
