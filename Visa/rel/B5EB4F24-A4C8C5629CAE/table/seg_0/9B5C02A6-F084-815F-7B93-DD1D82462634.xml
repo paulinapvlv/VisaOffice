@@ -34,7 +34,6 @@
 <createdBy>181413</createdBy>
 <createdTime>2020-02-28 11:44:49 UTC</createdTime>
 <ownerDesignName>Visa</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
