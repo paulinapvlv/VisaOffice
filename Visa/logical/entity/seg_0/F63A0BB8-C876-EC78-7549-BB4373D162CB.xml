@@ -1,0 +1,192 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F63A0BB8-C876-EC78-7549-BB4373D162CB" name="PASSPORT">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 09:02:12 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PassportID" id="2DBA8F33-8DFD-5F61-32CD-13E0EBCACFEA">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 09:02:21 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ClientID" id="01E45525-D7D2-4C43-0F23-A0E2DB515C47">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 18:44:59 UTC</createdTime>
+<generatorID>BAE5853E-A715-D6FB-1931-72E0B7A79D7E</generatorID>
+<ownerDesignName>Visa</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>19B26668-9DED-4703-89D9-3414892C4D1B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PassportTypeID" id="FFADBFAC-A26B-36F8-129D-5D7677ACC8C5">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 18:57:01 UTC</createdTime>
+<generatorID>6E6CC766-7D38-2FA8-A725-C3718C140FEC</generatorID>
+<ownerDesignName>Visa</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<referedAttribute>3F3A3494-A318-8C26-B1B7-EFB65BB58F97</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IssueDate" id="7B6FD909-19E3-E381-7CBC-F31D7430478A">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 09:04:17 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ExpiryDate" id="7F1B4BBD-BD0F-B240-CE05-1C0419198940">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 09:04:23 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FirstName" id="5EBFBEC9-A3D6-2117-EDF0-51251B26A61B">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 09:04:37 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Surname" id="F3E8A7AF-B719-AF1F-0D17-E747FBEFC2B0">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 09:04:49 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Patronymic" id="62D3A19C-2046-EDC6-AAB6-876EE1FDC431">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 09:04:55 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gender" id="7366DA5F-D20D-81DC-93DF-32E9D0285EC6">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 09:05:22 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BirthDate" id="ECCBC508-FBAF-CD25-2C60-129EAD8BF59D">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 09:05:35 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BirthPlace" id="F011E9D8-D470-CBA9-A56C-41ED58066793">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 09:06:00 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Authority" id="49D311A5-2BF0-8DF0-A493-A22DB7EEC306">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 09:07:18 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="04553356-984C-22FE-B00A-E0A76F93D260" name="Passport PK">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 09:03:19 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2DBA8F33-8DFD-5F61-32CD-13E0EBCACFEA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

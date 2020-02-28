@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="262A7084-9395-C0E6-0873-E5D75795BD5F" containerWithKeyObject="53E9DEE7-FEB8-2EFF-28A8-7BB3F35FDE91" localFKIndex="00D3700E-68CF-0F67-26DC-329794EE4173" name="PPT_CLT_ID_FK">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 19:54:52 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<referredTableLongName>CLIENT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>832BCCAE-4D7E-8CDF-8857-258FF54DA94D</referredTableID>
+<keyObject>0C7648BE-600B-BB5D-304A-BBFC69BFE9F2</keyObject>
+<referredKeyID>0C7648BE-600B-BB5D-304A-BBFC69BFE9F2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CLIENT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

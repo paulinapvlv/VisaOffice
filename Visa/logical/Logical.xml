@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="9E42ABDC-B0D6-E207-68E1-42975438DFB8" mainViewID="48A2C9C7-F41D-F5A5-11FB-F35218859A4F">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 08:52:49 UTC</createdTime>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

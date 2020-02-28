@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD97D967-E4F2-2741-48CD-7E5C27F89964" name="COUNTRY">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 09:10:27 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CountryID" id="C706A061-0AD7-68DB-D57C-F110F44E7A18">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 09:10:50 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CountryName" id="7914A7EB-C8D0-F46B-3849-ABF3A1D23CE8">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 09:11:01 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="136AD179-7FA6-E341-E3E2-373624E81704" name="Country PK">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 09:11:00 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C706A061-0AD7-68DB-D57C-F110F44E7A18</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

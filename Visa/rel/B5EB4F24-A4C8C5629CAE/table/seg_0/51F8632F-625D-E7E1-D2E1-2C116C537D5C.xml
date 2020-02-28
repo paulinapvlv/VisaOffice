@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51F8632F-625D-E7E1-D2E1-2C116C537D5C" name="COUNTRIES_LOCATION">
+<createdBy>181413</createdBy>
+<createdTime>2020-02-28 11:28:42 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LOCATION_ID" id="53705385-115E-F2ED-9831-B579915FEC12">
+<createdBy>181413</createdBy>
+<createdTime>2020-02-28 11:32:09 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B340F8D0-8B76-D062-9F1E-D2C97873C7F9" referredColumn="5DC3B654-EEDE-D179-0ACA-45F41EAEC778"/>
+</associations>
+</Column>
+<Column name="COUNTRY_ID" id="807C8EA4-A9EE-5B63-C728-B8F50308F12D">
+<createdBy>181413</createdBy>
+<createdTime>2020-02-28 11:32:28 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="351F243D-81DC-745D-26AF-CFC7907E5FC7" referredColumn="2C92C4EF-CA64-DF6C-DB42-1C8FF38006A1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C18CBF7-C9FD-1A56-D11D-93677D061264" name="COUNTRIES_LOCATION_PK">
+<createdBy>181413</createdBy>
+<createdTime>2020-02-28 11:32:53 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53705385-115E-F2ED-9831-B579915FEC12"/>
+<colUsage columnID="807C8EA4-A9EE-5B63-C728-B8F50308F12D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2FAFD01-2D49-3CF2-3D11-A50206D6C9E3" name="COUNTRIES_LOC_LOC_FK">
+<createdBy>181413</createdBy>
+<createdTime>2020-02-28 11:32:09 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53705385-115E-F2ED-9831-B579915FEC12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="607AD2A5-FE93-918E-230A-5C5F94FDE560" name="COUNTRIES_LOC_COUNTRY_FK">
+<createdBy>181413</createdBy>
+<createdTime>2020-02-28 11:32:28 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="807C8EA4-A9EE-5B63-C728-B8F50308F12D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

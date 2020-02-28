@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4ADC38C-3394-098A-99EF-9BBE4A5DDFCD" name="COUNTRY">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 19:35:12 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COUNTRY_ID" id="2C92C4EF-CA64-DF6C-DB42-1C8FF38006A1">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 19:35:54 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY_NAME" id="CC8F4984-1BD9-9A33-B3C4-E10CBF579940">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 19:35:54 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B93585E-34F7-7136-6CFB-DFB9266872A2" name="COUNTRY_ID_PK">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 19:35:54 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C92C4EF-CA64-DF6C-DB42-1C8FF38006A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

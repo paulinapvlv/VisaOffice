@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="832BCCAE-4D7E-8CDF-8857-258FF54DA94D" name="CLIENT">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 19:13:25 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CLIENT_ID" id="DF127F05-3328-3082-3533-A6B892C571D7">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 19:14:00 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C7648BE-600B-BB5D-304A-BBFC69BFE9F2" name="CLT_ID_PK">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 19:15:18 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF127F05-3328-3082-3533-A6B892C571D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

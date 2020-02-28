@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B340F8D0-8B76-D062-9F1E-D2C97873C7F9" containerWithKeyObject="51F8632F-625D-E7E1-D2E1-2C116C537D5C" localFKIndex="C2FAFD01-2D49-3CF2-3D11-A50206D6C9E3" name="COUNTRIES_LOC_LOC_FK">
+<createdBy>181413</createdBy>
+<createdTime>2020-02-28 11:32:09 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<referredTableLongName>LOCATION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5CAF39E0-724A-7BA0-DD9F-74AEFC3EC07D</referredTableID>
+<keyObject>0EDA1F49-9654-ED4A-555C-CC7610FE67A2</keyObject>
+<referredKeyID>0EDA1F49-9654-ED4A-555C-CC7610FE67A2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>LOCATION_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

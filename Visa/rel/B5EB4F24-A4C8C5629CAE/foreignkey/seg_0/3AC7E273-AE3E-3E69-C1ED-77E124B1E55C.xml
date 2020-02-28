@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3AC7E273-AE3E-3E69-C1ED-77E124B1E55C" containerWithKeyObject="47BF477B-B0B4-0548-4EAE-14B9EAAF7C76" localFKIndex="C834A970-E6A8-4C09-992E-E982505C0AE4" name="VISA_VISA_TYPE_ID_FK">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 19:52:04 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<referredTableLongName>VISA_TYPE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9B5C02A6-F084-815F-7B93-DD1D82462634</referredTableID>
+<keyObject>4BA75BBC-4929-4647-3182-761204DDD67D</keyObject>
+<referredKeyID>4BA75BBC-4929-4647-3182-761204DDD67D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>VISA_TYPE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

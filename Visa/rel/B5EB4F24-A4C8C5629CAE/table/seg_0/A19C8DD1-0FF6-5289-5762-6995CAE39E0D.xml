@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A19C8DD1-0FF6-5289-5762-6995CAE39E0D" name="PASSPORT_TYPE">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 19:33:58 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PASSPORT_TYPE_ID" id="8FCFFBE6-9036-4477-2CFB-09808A3F4DBC">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 19:35:08 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSPORT_TYPE_NAME" id="2A1D6BC2-2438-AE9E-2B80-9E08FEB3BC36">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 19:35:08 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4C2ACFB-62A3-9FDD-12DD-16519C75AE2B" name="PPT_TYPE_ID_PK">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 19:35:08 UTC</createdTime>
+<ownerDesignName>Visa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FCFFBE6-9036-4477-2CFB-09808A3F4DBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
