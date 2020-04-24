@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="VisaOffice" id="0BDC3BC4-4AA0-5467-9006-301B629D1935" version="3.5">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 08:52:49 UTC</createdTime>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>0BDC3BC4-4AA0-5467-9006-301B629D1935</designId>
+</OSDM_Design>

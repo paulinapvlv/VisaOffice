@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="10A3D1E7-A955-1D45-4A19-05961B32087C" name="VISA">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 09:12:13 UTC</createdTime>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="VisaID" id="A87FB064-94FE-366D-3B1D-EF2046AB3583">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 09:12:22 UTC</createdTime>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PassportID" id="309EA495-E677-05A3-6068-0C29C570F5EC">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 18:56:36 UTC</createdTime>
+<generatorID>DDF95103-08BC-87F2-FE89-1286F59004A1</generatorID>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<referedAttribute>2DBA8F33-8DFD-5F61-32CD-13E0EBCACFEA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IssueDate" id="AD88BEBF-BFF5-1C8B-A906-DA4A3729B2C8">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 09:12:55 UTC</createdTime>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ExpiryDate" id="5DD600D8-BB76-BE0A-93EA-6D17234CADE5">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 09:13:05 UTC</createdTime>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VisaTypeID" id="9CC46836-DBAB-6030-9DCD-3A01467F9C63">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 19:01:01 UTC</createdTime>
+<generatorID>AA0038AD-F4F3-9384-040C-EF86F7A63DCB</generatorID>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<referedAttribute>06F6D626-E353-7544-9D12-C94BC5A56891</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LocationID" id="B4E142EF-5908-8D0B-14CE-CF9C1CAAB69F">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 19:12:09 UTC</createdTime>
+<generatorID>E6608407-75E1-B54A-F081-FCB3DA614EC8</generatorID>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<referedAttribute>54E41695-C9C0-EC5A-7EC2-1DB2BE986B06</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ACBC0E51-A697-37D1-1B64-2B2D383974B5" name="Visa PK">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 09:13:18 UTC</createdTime>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A87FB064-94FE-366D-3B1D-EF2046AB3583</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="BAE5853E-A715-D6FB-1931-72E0B7A79D7E">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 18:43:15 UTC</createdTime>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<targetPk>619FA742-03D0-658E-5277-99A7DFFA67EB</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>F63A0BB8-C876-EC78-7549-BB4373D162CB</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>42165846-7893-FC5A-4D1E-7176841D873D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

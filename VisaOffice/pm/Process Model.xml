@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="B9FC9F75-0375-B157-D173-EF04CBBAD27B">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 08:52:50 UTC</createdTime>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

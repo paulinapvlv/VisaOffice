@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9BC299F1-FE91-E95C-BAD0-BEFB1D45FDFE" name="LOCATION">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 09:11:14 UTC</createdTime>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="LocationID" id="54E41695-C9C0-EC5A-7EC2-1DB2BE986B06">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 09:11:27 UTC</createdTime>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CountryID" id="EC5C5467-202F-1A29-8E68-381B5CDD940B">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 18:59:42 UTC</createdTime>
+<generatorID>B396EC7E-F99B-EFD7-6621-B860C85B6585</generatorID>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<referedAttribute>C706A061-0AD7-68DB-D57C-F110F44E7A18</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LocationName" id="3E8B7F35-094D-D482-06DC-D929F72FDFCF">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 09:11:44 UTC</createdTime>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F2240963-DE1E-195D-5FFC-4D1FFEB31281" name="Location PK">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 09:11:35 UTC</createdTime>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<engineerTo>
+<item key="B5EB4F24-7EFF-9133-BB8A-A4C8C5629CAE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>54E41695-C9C0-EC5A-7EC2-1DB2BE986B06</newElementsIDs>
+<usedAttributes>
+<attributeRef>54E41695-C9C0-EC5A-7EC2-1DB2BE986B06</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

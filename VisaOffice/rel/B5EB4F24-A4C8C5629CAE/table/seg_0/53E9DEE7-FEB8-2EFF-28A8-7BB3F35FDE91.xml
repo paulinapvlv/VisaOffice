@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53E9DEE7-FEB8-2EFF-28A8-7BB3F35FDE91" name="PASSPORT">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 19:14:11 UTC</createdTime>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PASSPORT_ID" id="A98A0F30-3E0E-47D6-CD12-3BC43BD0896D">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 19:14:28 UTC</createdTime>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSPORT_TYPE_ID" id="1447F691-972C-96BC-B74B-53D006643F72">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 19:52:25 UTC</createdTime>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17041232-0479-0C11-2D6C-0A2B6C4F7A50" referredColumn="8FCFFBE6-9036-4477-2CFB-09808A3F4DBC"/>
+</associations>
+</Column>
+<Column name="ISSUE_DATE" directorySegmentName="seg_0" id="B99928DB-689C-2D57-DF3D-EA0A1F4D8C0D">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 19:24:42 UTC</createdTime>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXPIRY_DATE" directorySegmentName="seg_0" id="B8BA3A7F-4C15-042A-155E-318A2885756C">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 19:24:42 UTC</createdTime>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRST_NAME" directorySegmentName="seg_0" id="1556C888-8C50-F5F0-B57E-A4069CA15ECF">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 19:24:42 UTC</createdTime>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_NAME" directorySegmentName="seg_0" id="0659C9CA-2FBE-C6C0-B36E-8F67780E3EC7">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 19:24:42 UTC</createdTime>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PATRONYMIC" directorySegmentName="seg_0" id="5FDAC11A-22D4-F658-D5D2-EB3C6E82EE85">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 19:24:42 UTC</createdTime>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENDER" directorySegmentName="seg_0" id="189D406E-091F-F14C-1CA9-0EA8E8F21514">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 19:24:42 UTC</createdTime>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUTHORITY" directorySegmentName="seg_0" id="405DCB12-954A-8A57-9AA0-4B90B0C0D4D3">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 19:24:42 UTC</createdTime>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8A10E6E-29D9-5ABC-FB4E-04F1597633A0" name="PPT_ID_PK">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 19:14:28 UTC</createdTime>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A98A0F30-3E0E-47D6-CD12-3BC43BD0896D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="839D04F8-7749-A9E3-DCA0-1D8EAB931507" name="PPT_PPT_TYPE_ID_FK">
+<createdBy>polin</createdBy>
+<createdTime>2020-02-26 19:52:25 UTC</createdTime>
+<ownerDesignName>VisaOffice</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1447F691-972C-96BC-B74B-53D006643F72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
