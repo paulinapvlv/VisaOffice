@@ -8,17 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CLIENT_PASSPORT_ID" id="27078A7D-23D1-515F-DAA0-ED9CC4DD7D51">
-<createdBy>polin</createdBy>
-<createdTime>2020-04-24 05:12:01 UTC</createdTime>
-<ownerDesignName>VisaOffice</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>16</dataTypePrecision>
-<ownDataTypeParameters>,16,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="CLIENT_ID" id="EE82D530-50A4-2921-131C-FD22B3B4ECC6">
 <createdBy>polin</createdBy>
 <createdTime>2020-04-24 05:17:35 UTC</createdTime>
@@ -42,7 +31,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -59,7 +48,8 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="27078A7D-23D1-515F-DAA0-ED9CC4DD7D51"/>
+<colUsage columnID="EE82D530-50A4-2921-131C-FD22B3B4ECC6"/>
+<colUsage columnID="3A5BD56D-2558-5601-80F8-62B618E922D7"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="7289E4FB-7074-6076-8346-6577261DF294" name="CLTPPT_CLT_ID_FK">
